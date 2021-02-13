@@ -3,11 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
     <title>Document</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a85295bb64.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 
+    <header class="header flex-sb">
+        <h1 class="logo">BEAU</h1>
+
+        <nav class="nav flex-center">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="burger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </div>
+    </header>
+
+    <div class="welcome-section flex-center">
+
+        <section class="title-container flex-center">
+            <h2 class="title">High quality products</h2>
+            <button class="button cta">SHOP</button>
+        </section>
+    </div>
+
+    <div class="shop-section grid">
+        <div class="form">
+            <h3 class="shop-title">Showing products by relevance</h3>
+        <label>Sort by</label>
+        <select>
+            <option value="relevance">Relevance</option>
+            <option value="Rating">Rating</option>
+            <option value="high">Highest to lowest</option>
+            <option value="low">Lowest to Highest</option>
+        </select>
+        </div>
+
+        <div class="products-wrapper">
+
+        </div>
+
+    </div>
+
+    <div class="profile-section grid">
+        <div class="profile-card grid"></div>
+
+        <div class="socials">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest"></i>
+        </div>
+    </div>
+
+
+    <!-- <div class="container" data-tilt><h1>Saludos</h1></div>
+
+    <script src="tilt.jquery.js"></script> -->
+    <script src="script.js"></script>
 </body>
 </html>
